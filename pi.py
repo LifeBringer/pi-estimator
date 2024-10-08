@@ -4,6 +4,9 @@ from math import pow
 import argparse
 
 def compute_pi(attempts):
+    """
+    This is a monte carlo method for estimating the value of pi
+    """
     inside = 0
     tries = 0
     
